@@ -10,7 +10,7 @@ public class ShoppingListLoops {
         String name;
         double price;
         int quantity;
-        double totalPriceItem = 0;
+        double totalPriceItem;
         double totalCost = 0;
 
         int num = 1;
