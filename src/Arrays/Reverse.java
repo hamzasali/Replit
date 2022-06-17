@@ -15,7 +15,7 @@ public class Reverse {
         String[] split = sentence.split(" ");
         String reverse = "";
 
-        for(int i = split.length-1, k=0; i >= 0; i--, k++){
+        for(int i = split.length-1; i >= 0; i--){
 
             reverse+=split[i]+" ";
 
