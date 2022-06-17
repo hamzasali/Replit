@@ -1,5 +1,6 @@
 package Arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -12,13 +13,16 @@ public class Reverse {
         // TYPE YOUR CODE BELOW:
 
         String[] split = sentence.split(" ");
-        String[] reverse = new String[split.length];
+        String reverse = "";
 
-        for (int i = split.length - 1, k = 0; i >= 0; i--, k++) {
+        for(int i = split.length-1, k=0; i >= 0; i--, k++){
 
-            reverse[k] = split[i] + " ";
+            reverse+=split[i]+" ";
 
         }
-        System.out.println(Arrays.toString(reverse));
+        System.out.println(reverse.trim());
+
+
+
     }
 }
